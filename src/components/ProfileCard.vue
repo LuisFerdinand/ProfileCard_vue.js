@@ -46,5 +46,35 @@ const profileData = ref([
 </template>
 
 <style scoped>
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.card {
+  margin-top: 5px;
+  display: flex;
+  border: 1px solid hsl(0, 0%, 80%);
+  width: auto;
+}
+
+.profile-info {
+  display: flex;
+  margin-right: auto;
+}
+
+.picture {
+  flex: 1;
+  margin-right: auto;
+}
+
+
+.fullname-address {
+  flex: 2;
+}
+
+.hobbies {
+  margin-top: 10px;
+  padding-top: 10px;
+}
 </style> 
